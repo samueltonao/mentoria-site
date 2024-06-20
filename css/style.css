@@ -1,21 +1,135 @@
-a {
-    text-decoration: none;
-    padding: 15px;
+body {
+    background-color: #f0ead0;
 }
 
-a:hover {
-    background-color: azure;
+h1 {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #3a3b3b;
+}
+
+p {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    padding: 25px;
+    font-size: 30px;
+}
+
+a {
+    color: #000;
+}
+
+nav a:hover {
+    background-color: rgba(252, 255, 255, 0.925);
     transition: 0.4s ease-in-out;
 }
 
 nav {
     width: 100%;
-    gap: 12px;
+    gap: 10px;
     display: flex;
+    align-items: center;
     flex-direction: row;
-    background-color: rgb(229, 255, 80);
+    background-color: #f0d870; 
 }
 
-body {
-    background-image: url(../images/photo-1561346745-5db62ae43861.avif);
+.logo {
+    height: 125px;
+}
+
+img {
+    height: 455px;
+    border-radius: 15px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 21px;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.introducao {
+    width: 550px;
+    padding: 15px;
+}
+
+.introducao:hover {
+    border-radius: 15px;
+    background-color: rgba(104, 104, 101, 0.137);
+    padding: 15px;
+    transition: 0.6s ease-in-out;
+}
+
+p {
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+.contato {
+    display: flex;
+    text-align: center;
+    margin-top: 3%;
+    flex-direction: column;
+}
+
+
+button {
+    border-style: none;
+    margin-top: 1%;
+    font-size: 40px;
+    width: 350px;
+    padding: 22px 40px;
+    border-radius: 55px;
+    cursor: pointer;
+    background-color: #f0d870;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 2%;
+}
+
+button:hover {
+    padding: 24px 45px;
+    width: 370px;
+    font-size: 45px;
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.informacoes-mentoria {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: inside;
+    margin-top: 3%;
+}
+
+.logo-empresas img {
+    border-radius: 50%;
+    height: 165px;
+    width: 165px;
+    margin-right: 40px;
+}
+
+.logo-empresas {
+    padding-top: 25px;
+    margin-bottom: 16px;
+}
+
+.avalie a{
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(0, 217, 255);
 }
