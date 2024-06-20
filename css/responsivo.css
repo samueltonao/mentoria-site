@@ -15,16 +15,31 @@
         margin-left: 0;
         text-align: center;
     }
+
     .imagem-principal img {
         height: 200px;
     }
+
     .introducao {
-        width: 350px;
+        width: 100%;
+        padding: 2px;
+    }
+
+    .introducao:hover {
+        padding: 2px;
+    }
+
+    .introducao h1 {
+        font-size: 30px;
     }
 
     .contato {
-        width: 350px;
-        margin-left: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contato h1{
+        font-size: 30px;
     }
 
     button {
