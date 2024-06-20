@@ -13,11 +13,23 @@
     
     .principal {
         flex-direction: column;
+        margin-left: 0;
     }
     .imagem-principal img {
         height: 220px;
     }
     .introducao {
         width: 350px;
+    }
+
+    .contato {
+        width: 350px;
+        margin-left: 0;
+    }
+
+    button {
+        width: 250px;
+        font-size: 30px;
+        margin-left: 0;
     }
  }
