@@ -1,0 +1,23 @@
+@media (max-width: 576px) { 
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .principal {
+        flex-direction: column;
+    }
+    .imagem-principal img {
+        height: 220px;
+    }
+    .introducao {
+        width: 350px;
+    }
+ }
