@@ -23,12 +23,8 @@
     }
 
     .contato {
-        padding: 15px;
         width: 350px;
-    }
-
-    .central {
-       text-align: center;
+        margin-left: 15px;
     }
 
     button {
