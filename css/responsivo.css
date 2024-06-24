@@ -6,8 +6,13 @@
     }
 
     nav a {
-        width: 86.2%;
         text-align: center;
+        padding: 0;
+    }
+
+    nav a:hover {
+        padding: 0;
+        width: 100%;
     }
     
     .principal {
