@@ -55,6 +55,7 @@
 
     button:hover {
         width: 275px;
+        padding: 20px 30px;
         font-size: 34px;
     }
 
